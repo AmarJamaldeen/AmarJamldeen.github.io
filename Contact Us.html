@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="description" content="FSW" />
+    <meta name="keywords" content="FSW" />
+    <title>Contact Us</title>
+    <style>
+      nav {
+        color: white;
+        background-color: black;
+        padding: 20px;
+      }
+
+      a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+
+      .one {
+        text-align: center;
+      }
+
+      footer {
+        color: white;
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="Project.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <a href="Courses.html">Cources</a>
+      </nav>
+
+      <section class="one">
+        <h1>Contact Us</h1>
+        <img
+          src="istockphoto-1365543480-640x640-1.jpg"
+          alt="Web development"
+          width="50%"
+        />
+      </section>
+
+      <section>
+        <h1>Get In Touch</h1>
+        <p>
+          To Know More About The Course Or Need Further Information Please Ask
+          Through The Form
+        </p>
+        <form action="https://httpbin.org/post" method="post">
+          <label for="name">Name:</label> <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Type Your Name"
+          />
+          <br /><br />
+          <label for="email">Email:</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Type Your Email"
+          />
+          <br /><br />
+          <label for="language">Language:</label>
+          <br />
+          <input
+            type="checkbox"
+            id="language"
+            name="language"
+            value="HTML"
+            checked
+          />HTML
+          <br />
+          <input type="checkbox" id="language" name="language" value="CSS" />CSS
+          <br />
+          <input type="checkbox" id="language" name="lanuage" value="JS" />JS
+          <br />
+          <br />
+          <label for="gender">Gender:</label> <br />
+          <input type="radio" name="gender" id="gender" value="male" />Male
+          <br />
+          <input type="radio" name="gender" id="gender" value="female" />Female
+
+          <br /><br />
+          <label for="commets">Your Message:</label>
+          <br />
+          <textarea
+            name="commets"
+            id="commets"
+            cols="40"
+            rows="10"
+            placeholder="Comments Here"
+          ></textarea>
+          <br />
+          <button
+            type="submit"
+            style="color: white; background-color: black; cursor: pointer"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+      <br />
+      <footer>
+        <b>&copy;2025 Web Development</b>
+      </footer>
+    </main>
+  </body>
+</html>

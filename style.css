@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.name {
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.name:hover {
+  color: orangered;
+  text-shadow: 0 0 25px orangered, 0 0 0px orangered;
+  transform: scale(1.1);
+}
+span {
+  color: orangered;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+span:hover {
+  color: white;
+  text-shadow: 0 0 25px white, 0 0 0px white;
+  transform: scale(1.1);
+}
+
+.links a {
+  color: white;
+  text-align: center;
+  padding: 0 50px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.links a:hover,
+.part .active {
+  color: orangered;
+  border-bottom: 3px solid orangered;
+}
+
+.button {
+  background-color: whitesmoke;
+  color: #333;
+  padding: 10px;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: orangered;
+  box-shadow: 0 0 25px orangered;
+  color: white;
+}
+
+.bottom {
+  background-color: white;
+  border: 1px solid #333;
+  height: 680px;
+}
+
+.bottom .right {
+  float: right;
+  margin-left: 10px;
+  margin: 5%;
+}
+
+img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.bottom .texts {
+  margin-top: 200px;
+  margin-left: 35px;
+  font-weight: 400;
+}
+
+.bottom .texts h1,
+h2 {
+  font-weight: 600;
+}
+
+.bottom h1 .color {
+  transition: 0.3s ease;
+}
+
+.bottom h1 .color:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.btn{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-2{
+    padding: 15px 28px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-2:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.bottom .skills {
+  color: white;
+  background-color: orangered;
+  border: 1px solid #333;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  border-radius: 10%;
+}
+
+.about {
+  background-color: black;
+  color: white;
+  height: 750px;
+}
+
+.about .left {
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+  padding-left: 200px;
+  font-size: xxx-large;
+  font-weight: 800;
+}
+
+.about .side {
+  float: right;
+  width: 50%;
+  margin-top: 10%;
+  padding-right: 200px;
+  line-height: 2em;
+}
+
+.about .side h1 {
+  font-size: xx-large;
+}
+
+.about .left h1 {
+  transition: 0.3s ease;
+}
+
+.about .left h1:hover {
+  color: orangered;
+  text-shadow: 0 0 25px orangered, 0 0 0px orangered;
+  transform: scale(1.1);
+}
+
+.about .left img {
+  border-radius: 0%;
+}
+
+.skill {
+  height: 750px;
+  background-color: bisque;
+}
+
+.skill .center h1 {
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 600;
+}
+
+.skill .skill_list {
+  margin: 60px 40px;
+  border: 2px solid #333;
+  width: 300px;
+  background-color: #fff0e0;
+  border-radius: 5%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition:all 0.3s ease;
+}
+
+.skill .skill_list:hover{
+    box-shadow: 0 6px 16px rgba(255, 140, 0, 0.25);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.skill_list ol li {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+  list-style-position: inside;
+}
+
+.skill_list ol li::marker {
+  color: orangered;
+  font-size: 2em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill .info {
+  font-weight: 500;
+  text-align: center;
+}
+
+.skill .skill_list .projects {
+  text-decoration: none;
+  color: orangered;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill .skill_list .projects:hover{
+    color:#c0392b ;
+    text-decoration: underline;
+}
+
+.skill .lang {
+  height: 220px;
+}
+
+.skill .change{
+    transition: 0.3s ease;
+}
+
+.skill .change:hover{
+    color: black;
+  transform: scale(1.1);
+}
+
+.contact-form h2{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 36px;
+}
+
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
